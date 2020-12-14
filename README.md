@@ -17,3 +17,6 @@ export FLASK_APP=src/main.py
 
 flask run
 
+First Project in Python
+In The Request Interface the purpose/ meaning of the scenario couldn't be understood
+So the code is without processing scenario from the initial conf of the Rover.
