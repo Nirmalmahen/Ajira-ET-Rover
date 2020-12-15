@@ -1,9 +1,11 @@
-from . import Inventory,Environment
+from .Environment import Environment
+from .Inventory import Inventory
 
 class Rover:
 
     Inventory=Inventory()
-    battery,size=10
+    battery=10
+    size=10
     Environment=Environment()
     position=dict()
     state="mobile"

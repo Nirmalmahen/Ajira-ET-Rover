@@ -5,7 +5,8 @@ class Inventory:
 
 class InventoryItem:
     sampleName=""
-    samplePriority,sampleSize=0
+    samplePriority=0
+    sampleSize=0
 
 def addItem(InventoryItem,Inventory):
     while(InventoryItem.sampleSize+ Inventory.size>Inventory.maxSize):

@@ -1,4 +1,8 @@
 class Environment:
-    temperature,humidity,area_max_col,area_max_row=0
-    flare,storm= False
+    temperature=0
+    humidity=0
+    area_max_col=0
+    area_max_row=0
+    flare= False
+    storm= False
     terrain=[[]]
